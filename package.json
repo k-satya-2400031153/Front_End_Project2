@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/k-satya-2400031153/Front_End_Project2.git",
- "scripts": {
-  "dev": "vite",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+  "homepage": "https://k-satya-2400031153.github.io/Front_End_Project2/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
