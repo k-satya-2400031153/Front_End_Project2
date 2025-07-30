@@ -3,6 +3,5 @@ import react from '@vitejs/plugin-react-swc';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Front_End_Project2/',
+  base:'/Front_End_Project2/',
 });
-
