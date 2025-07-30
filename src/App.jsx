@@ -16,6 +16,8 @@ function App() {
       <Link to="/page2">Go to Page2</Link>
       <br />
       <Link to="/page3">Go to Page3</Link>
+      <br />
+      <Link to="/page4">Go to Page4</Link>
       
       <br /><br />
       <h2>Counter: {count}</h2>
@@ -33,5 +35,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
