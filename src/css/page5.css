@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page5-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  height: 600px;
+  background: linear-gradient(to right, red, orange);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.slider {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 200px;
+}
+
+.slide {
+  min-width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+footer {
+  background: linear-gradient(to right, orange, red);
+  color: white;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 8px 0;
+  /* Stick to bottom */
+  margin-top: auto;
+}
+
+section {
+  flex: 1;
+  overflow: auto;
+}
+
+.s1, .s2, .s3 {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.s1 { background-image: url('../b1.png'); }
+.s2 { background-image: url('../b2.png'); }
+.s3 { background-image: url('../b3.png'); }

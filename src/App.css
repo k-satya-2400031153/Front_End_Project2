@@ -1,0 +1,89 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.app {
+  font-family: sans-serif;
+  background-color: #e8faff;
+  min-height: 100vh;
+}
+
+/* Top header bar */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;                 /* increased header height */
+  padding: 0 24px;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  color: white;
+}
+
+/* Stack title and ID */
+.header-title {
+  display: flex;
+  flex-direction: column;         /* stack elements vertically */
+  justify-content: center;
+  line-height: 1.4;               /* remove fixed line-height */
+  font-weight: bold;
+}
+
+.header-title h1 {
+  font-size: 1rem;
+  margin: 4px 0 0 0;              /* spacing above ID */
+}
+
+.header-time {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* Subtitle */
+.app-subtitle {
+  text-align: center;
+  background-color: #ffffe0;
+  padding: 8px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Grid of cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  padding: 24px;
+}
+
+/* Individual card */
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+/* Logo image */
+.card img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+/* Link under image */
+.card-link {
+  text-decoration: none;
+  color: #3333cc;
+  font-weight: bold;
+}
